@@ -2,15 +2,15 @@ import babel from 'rollup-plugin-babel';
 import babelrc from 'babelrc-rollup';
 
 const babelConfig = {
-    "presets": [
-        ["env", {
-            "targets": {
-                "browsers": ["last 2 versions"]
-            },
-            "modules": false,
-            "loose": true
-        }]
-    ]
+  'presets': [
+    ['env', {
+      'targets': {
+        'browsers': ['last 2 versions']
+      },
+      'modules': false,
+      'loose': true
+    }]
+  ]
 };
 
 export default {
