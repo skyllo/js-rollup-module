@@ -12,7 +12,7 @@ export function freeze(obj) {
  * @param func - Callback function which returns each item
  */
 export function forEach(array, func) {
-  for (let i = 0; i < array.length; i + 1) {
+  for (let i = 0; i < array.length; i += 1) {
     const item = array[i];
     const result = func(item);
     if (result === false) {
