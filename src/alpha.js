@@ -1,5 +1,6 @@
 /**
  * Freezes an object so no properties can be added or removed on it.
+ * @param obj - Object to freeze ❄️❄️❄️
  */
 export function freeze(obj) {
   Object.freeze(obj);
