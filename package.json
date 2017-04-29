@@ -7,7 +7,7 @@
   "scripts": {
     "clean": "rimraf dist/*",
     "build": "npm run clean && rollup -c",
-    "start": "npm run clean && rollup -c -w",
+    "start": "npm run build -- -w",
     "test": "mocha --compilers js:babel-register",
     "testw": "npm run test -- -w",
     "lint": "eslint ."
