@@ -1,15 +1,28 @@
-import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
+import babelrc from 'babelrc-rollup';
+
+const babelConfig = {
+    "presets": [
+        ["env", {
+            "targets": {
+                "browsers": ["last 2 versions"]
+            },
+            "modules": false,
+            "loose": true
+        }]
+    ]
+};
 
 export default {
-  entry: 'src/lights.js',
+  entry: 'src/alpha.js',
   format: 'umd',
-  moduleName: 'Lights',
+  moduleName: 'Alpha',
   plugins: [
-    resolve(),
-    babel({
-      exclude: 'node_modules/**' // only transpile our source code
-    })
+    babel(babelrc({
+      addExternalHelpersPlugin: false,
+      config: babelConfig,
+      exclude: 'node_modules/**'
+    }))
   ],
   dest: 'dist/bundle.js'
 };
