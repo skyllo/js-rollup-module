@@ -16,6 +16,7 @@ export default {
   entry: 'src/alpha.js',
   format: 'umd',
   moduleName: 'Alpha',
+  sourceMap: true,
   plugins: [
     babel(babelrc({
       addExternalHelpersPlugin: false,
