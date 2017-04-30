@@ -1,5 +1,4 @@
 # Rollup.JS Module Example
-
 Using Rollup.JS, Mocha, Chai, ESLint to create ES6/ES5 compatible JS modules with UMD. Check [package.json](package.json) for other dependencies.
 
 ## Developing
@@ -29,4 +28,4 @@ Alpha.sayName('Tyrion');
 ```
 
 ## References
-
+* [https://github.com/rollup/rollup-starter-project](https://github.com/rollup/rollup-starter-project)
