@@ -12,7 +12,7 @@
     "test": "mocha --compilers js:babel-register",
     "testw": "npm run test -- -w",
     "lint": "eslint .",
-    "prepublish": "npm test"
+    "prepublish": "npm test && npm run build"
   },
   "devDependencies": {
     "babel-preset-env": "^1.4.0",
