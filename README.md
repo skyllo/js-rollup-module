@@ -27,3 +27,6 @@ sayName('Tyrion');
 <script src='./bundle.js'></script>
 Alpha.sayName('Tyrion');
 ```
+
+## References
+
