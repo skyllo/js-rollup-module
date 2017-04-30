@@ -7,7 +7,6 @@ const babelConfig = {
       'targets': {
         'browsers': ['last 2 versions']
       },
-      'modules': false,
       'loose': true
     }]
   ]
