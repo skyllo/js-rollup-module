@@ -1,6 +1,5 @@
 /* eslint-disable no-console */
 
-import sinon from 'sinon';
 import * as Alpha from '../src/alpha';
 
 describe('#freeze', () => {
@@ -36,16 +35,16 @@ describe('#forEach', () => {
 
 describe('#sayName', () => {
   beforeEach(() => {
-    sinon.spy(console, 'log');
+    jest.spyOn(console, 'log');
   });
 
   afterEach(() => {
-    console.log.restore();
+    console.log.mockRestore();
   });
 
   it('should say your name', () => {
     Alpha.sayName('Test');
-    expect(console.log).toHaveBeenCalled;
+    expect(console.log).toHaveBeenCalledWith('Your name is Test!');
   });
 });
 
