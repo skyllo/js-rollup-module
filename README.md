@@ -1,5 +1,5 @@
 # Rollup.JS Module Example
-Using Rollup.JS, Jest, Chai, ESLint to create ES6/ES5 compatible JS modules with UMD. Check [package.json](package.json) for other dependencies.
+Using Rollup.JS, Jest, Sinon, ESLint to create ES6/ES5 compatible JS modules with UMD. Check [package.json](package.json) for other dependencies.
 
 ## Developing
 ```bash

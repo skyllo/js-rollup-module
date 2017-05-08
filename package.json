@@ -17,10 +17,8 @@
   "devDependencies": {
     "babel-preset-env": "^1.4.0",
     "babelrc-rollup": "^3.0.0",
-    "chai": "^3.5.0",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-chai-friendly": "^0.3.6",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
@@ -29,7 +27,6 @@
     "rollup": "^0.41.6",
     "rollup-plugin-babel": "^2.7.1",
     "rollup-watch": "^3.2.2",
-    "sinon": "^2.1.0",
-    "sinon-chai": "^2.9.0"
+    "sinon": "^2.1.0"
   }
 }
